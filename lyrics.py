@@ -1,7 +1,4 @@
-#export SPOTIPY_CLIENT_ID='bbf5b65023f64e7896ba3b9197caab5f'
-#export SPOTIPY_CLIENT_SECRET='826e7c6fdfbc4d0ca2b8fe17f7787231'
-#export SPOTIPY_REDIRECT_URI='https://google.com'
-#export GENIUS_ACCESS_TOKEN='8Fzw6EtrpIGquPMknNoiphCC8DK1BlDRv4YJMn90KytJa7LFWYr912zGM_up3OMu'
+
 
 import os
 import json
@@ -9,15 +6,12 @@ import time
 import spotipy
 import lyricsgenius as lg
 
-#spotify_client_id = os.environ['SPOTIPY_CLIENT_ID']
-#spotify_secret = os.environ['SPOTIPY_CLIENT_SECRET']
-#spotify_redirect_uri = os.environ['SPOTIPY_REDIRECT_URI']
-#genius_access_token = os.environ['GENIUS_ACCESS_TOKEN']
+spotify_client_id = os.environ['SPOTIPY_CLIENT_ID']
+spotify_secret = os.environ['SPOTIPY_CLIENT_SECRET']
+spotify_redirect_uri = os.environ['SPOTIPY_REDIRECT_URI']
+genius_access_token = os.environ['GENIUS_ACCESS_TOKEN']
 
-spotify_client_id = 'bbf5b65023f64e7896ba3b9197caab5f'
-spotify_secret = '826e7c6fdfbc4d0ca2b8fe17f7787231'
-spotify_redirect_uri = 'https://google.com'
-genius_access_token = '8Fzw6EtrpIGquPMknNoiphCC8DK1BlDRv4YJMn90KytJa7LFWYr912zGM_up3OMu'
+
 
 scope = 'user-read-currently-playing'
 
